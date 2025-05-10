@@ -1,0 +1,7 @@
+id: github.com/adjiadjo/web3-readme-stats
+title: Web3 README Stats
+description: A CLI and API tool to embed wallet stats in your GitHub README using Web3.
+project_url: https://github.com/adjiadjo/web3-readme-stats
+source_repo_url: https://github.com/adjiadjo/web3-readme-stats
+license: ISC
+package_manager: npm
