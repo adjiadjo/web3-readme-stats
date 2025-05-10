@@ -1,17 +1,28 @@
 {
-  "name": "web3-readme-stats",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "web3-readme-stats",  // Name of your package (lowercase, no spaces, use dashes if necessary)
+  "version": "1.0.0",           // Version of your package (start with 1.0.0, and increment for each release)
+  "description": "Embed wallet stats in your GitHub README using Web3",  // A short description of what your package does
+  "main": "src/api.js",  // The main entry point for your package, can be the API server file or main logic
+  "bin": {
+    "web3-readme-stats": "./src/cli.js"  // CLI executable available globally (this links the CLI file)
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "scripts": {
+    "start": "node src/api.js"  // The command to start your API server (run `npm start` in terminal)
+  },
   "dependencies": {
-    "axios": "^1.9.0",
-    "ethers": "^6.14.0",
-    "express": "^5.1.0"
-  }
+    "axios": "^0.21.1",  // Dependency for making HTTP requests
+    "ethers": "^5.0.0",  // Ethereum library to interact with the blockchain
+    "express": "^4.17.1" // For your API server
+  },
+  "keywords": ["web3", "ethereum", "cli", "api"],  // Keywords for better discoverability
+  "author": "",  // Author name or your organization's name (optional)
+  "license": "ISC",  // License type (you can also use MIT, ISC, etc.)
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adjiadjo/web3-readme-stats.git"  // Link to your GitHub repo
+  },
+  "bugs": {
+    "url": "https://github.com/adjiadjo/web3-readme-stats/issues"  // Link to your repo's issue tracker
+  },
+  "homepage": "https://github.com/adjiadjo/web3-readme-stats#readme"  // Link to your project homepage (usually the README)
 }
