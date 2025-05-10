@@ -1,28 +1,28 @@
 {
-  "name": "web3-readme-stats",  // Name of your package (lowercase, no spaces, use dashes if necessary)
-  "version": "1.0.0",           // Version of your package (start with 1.0.0, and increment for each release)
-  "description": "Embed wallet stats in your GitHub README using Web3",  // A short description of what your package does
-  "main": "src/api.js",  // The main entry point for your package, can be the API server file or main logic
+  "name": "web3-readme-stats",
+  "version": "1.0.0",
+  "description": "Embed wallet stats in your GitHub README using Web3",
+  "main": "src/api.js",
   "bin": {
-    "web3-readme-stats": "./src/cli.js"  // CLI executable available globally (this links the CLI file)
+    "web3-readme-stats": "./src/cli.js"
   },
   "scripts": {
-    "start": "node src/api.js"  // The command to start your API server (run `npm start` in terminal)
+    "start": "node src/api.js"
   },
   "dependencies": {
-    "axios": "^0.21.1",  // Dependency for making HTTP requests
-    "ethers": "^5.0.0",  // Ethereum library to interact with the blockchain
-    "express": "^4.17.1" // For your API server
+    "axios": "^0.21.1",
+    "ethers": "^5.0.0",
+    "express": "^4.17.1"
   },
-  "keywords": ["web3", "ethereum", "cli", "api"],  // Keywords for better discoverability
-  "author": "",  // Author name or your organization's name (optional)
-  "license": "ISC",  // License type (you can also use MIT, ISC, etc.)
+  "keywords": ["web3", "ethereum", "cli", "api"],
+  "author": "",
+  "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adjiadjo/web3-readme-stats.git"  // Link to your GitHub repo
+    "url": "git+https://github.com/adjiadjo/web3-readme-stats.git"
   },
   "bugs": {
-    "url": "https://github.com/adjiadjo/web3-readme-stats/issues"  // Link to your repo's issue tracker
+    "url": "https://github.com/adjiadjo/web3-readme-stats/issues"
   },
-  "homepage": "https://github.com/adjiadjo/web3-readme-stats#readme"  // Link to your project homepage (usually the README)
+  "homepage": "https://github.com/adjiadjo/web3-readme-stats#readme"
 }
